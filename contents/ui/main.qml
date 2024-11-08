@@ -101,8 +101,8 @@ PlasmaCore.Dialog {
 
         ShortcutHandler {
             id: mainShortcut
-            name: "Walk Through Desktop"
-            text: "Walk Through Desktop"
+            name: "Walk Through Desktops"
+            text: "Walk Through Desktops"
             sequence: "Meta+Tab"
             onActivated: info => {
                 if (!mainDialog.visible) {
@@ -114,8 +114,8 @@ PlasmaCore.Dialog {
 
         ShortcutHandler {
             id: mainShortcutReverse
-            name: "Walk Through Desktop (reverse)"
-            text: "Walk Through Desktop (reverse)"
+            name: "Walk Through Desktops (Reverse)"
+            text: "Walk Through Desktops (Reverse)"
             sequence: "Meta+Shift+Tab"
             onActivated: {
                 if (!mainDialog.visible) {
